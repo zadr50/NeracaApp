@@ -1,0 +1,47 @@
+jenis-jenis biaya
+
+PENGELUARAN
+------------
++ makan minum
++ penginapan
++ transportasi
+pengobatan
++ pakaian
++ gaji
++ listrik dan telpon
++ alat tulis kantor
+pajak
+service peralatan atau mobil
+jasa konsultasi
+prive
+penyusutan aktiva tetap
+biaya lembur
+marketing dan promosi
+biaya asuransi
+biaya keamanan
+bayar sewa
+bayar hutang
+
+PENERIMAAN
+----------
+penjualan tunai
+terima modal
+terima sewa
+bunga bank
+tabungan
+terima piutang
+
+pembayaran hutang usaha
+pembayaran hutang cicilan
+
+
+SUB_ACC_TYPE
+------------
+0 - None
+1 - Rekening Kas Bank
+2 - Pengeluaran
+3 - Bayar Hutang
+4 - Terima Piutang
+
+
+

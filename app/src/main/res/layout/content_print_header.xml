@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" >
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/cmdMenu"
+            android:src="@android:drawable/ic_menu_more"
+            android:onClick="onClick"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/menu"
+            android:focusable="true" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/cmdFilter"
+            android:src="@android:drawable/ic_menu_search"
+            android:onClick="onClick"
+            android:background="@color/colorPrimary"
+            android:focusable="true"
+            android:contentDescription="@string/search" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right">
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:id="@+id/spinner2" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/cmdRefresh"
+                android:src="@android:drawable/ic_menu_rotate"
+                android:onClick="onClick"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/refresh" />
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/cmdPrint"
+                android:src="@android:drawable/ic_menu_save"
+                android:onClick="onClick"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/add_jurnal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

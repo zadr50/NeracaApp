@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.talagasoft.neraca.JurnalListNew"
+    tools:showIn="@layout/activity_jurnal_list_new">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="@color/colorPrimary">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtJurSearch"
+            android:minWidth="90dp"
+            android:inputType="textAutoComplete" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/cmdJurSearch"
+            android:src="@android:drawable/ic_menu_search"
+            android:onClick="onClick"
+            android:background="@color/colorPrimary"
+            android:focusable="true"
+            android:contentDescription="@string/search" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/cmdRefresh"
+            android:src="@android:drawable/ic_menu_rotate"
+            android:onClick="onClick"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/refresh" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/cmdJurMenu"
+            android:src="@android:drawable/ic_menu_more"
+            android:onClick="onClick"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/menu"
+            android:focusable="true" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/cmdAdd"
+            android:src="@android:drawable/ic_menu_edit"
+            android:onClick="onClick"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/add_jurnal" />
+    </LinearLayout>
+
+
+</RelativeLayout>
