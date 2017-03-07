@@ -10,6 +10,5 @@
         android:clickable="true"
         android:choiceMode="singleChoice"
         android:contextClickable="true"
-        android:focusable="true"
-        android:layout_marginTop="100dp" />
+        android:focusable="true" />
 </LinearLayout>
